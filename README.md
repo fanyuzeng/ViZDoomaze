@@ -35,7 +35,7 @@ env.close()
 
 
 # Mazes
-The naming rule is "bedroom model-serial number". 
+The naming rule is "bedroom type-serial number". 
 - All interior floor plans for one bedroom are named from [one_1](https://github.com/fanyuzeng/ViZDoomaze/tree/main/vizdoomaze/envs/scenarios/one) to [one_20](https://github.com/fanyuzeng/ViZDoomaze/tree/main/vizdoomaze/envs/scenarios/one).
 - All interior floor plans for two bedrooms are named from [two_1](https://github.com/fanyuzeng/ViZDoomaze/tree/main/vizdoomaze/envs/scenarios/two) to [two_20](https://github.com/fanyuzeng/ViZDoomaze/tree/main/vizdoomaze/envs/scenarios/two).
 - All interior floor plans for three bedrooms are named from [three_1](https://github.com/fanyuzeng/ViZDoomaze/tree/main/vizdoomaze/envs/scenarios/three) to [three_20](https://github.com/fanyuzeng/ViZDoomaze/tree/main/vizdoomaze/envs/scenarios/three).
