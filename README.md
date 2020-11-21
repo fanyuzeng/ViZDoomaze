@@ -14,7 +14,7 @@ Run the following code to test whether you successfully install Vizdoomaze.
 import gym import vizdoomaze env = gym.make('VizdoomSelfMaze0-v0') episodes=10 for i in range(episodes)： print("Episodes #" + str(i+1)) observation = env.reset() for step in range(100): env.render() action = env.action_space.sample() observation, reward, done, info = env.step(action) if done: print("Episode finished after {} timesteps".format(step+1)) break env.close()
 
 # Environments
-VizdoomBasic-v0 VizdoomCorridor-v0 VizdoomDefendCenter-v0 VizdoomDefendLine-v0 VizdoomHealthGathering-v0 VizdoomMyWayHome-v0 VizdoomPredictPosition-v0 VizdoomTakeCover-v0 VizdoomDeathmatch-v0 VizdoomHealthGatheringSupreme-v0 VizdoomSelfMaze0-v0 VizdoomSelfMaze1-v0 VizdoomSelfMaze2-v0 VizdoomSelfMaze3-v0 VizdoomSelfMaze4-v0 VizdoomSelfMaze5-v0 VizdoomSelfMaze5-v0
+VizdoomBasic-v0 VizdoomCorridor-v0  VizdoomDefendCenter-v0  VizdoomDefendLine-v0  VizdoomHealthGathering-v0  VizdoomMyWayHome-v0  VizdoomPredictPosition-v0   VizdoomTakeCover-v0  VizdoomDeathmatch-v0  VizdoomHealthGatheringSupreme-v0  VizdoomSelfMaze0-v0  VizdoomSelfMaze1-v0  VizdoomSelfMaze2-v0  VizdoomSelfMaze3-v0   VizdoomSelfMaze4-v0  VizdoomSelfMaze5-v0  VizdoomSelfMaze5-v0
 
 # Indoor mazes are as follows:
 VizdoomMazeOne1-v0 VizdoomMazeTwo5-v0 VizdoomMazeThree8-v0 ...
