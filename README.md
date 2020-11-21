@@ -7,9 +7,9 @@ The agent’s objective in navigation tasks is to find the red tower, and the ag
 
 
 # Installation
-git clone https://github.com/fanyuzeng/ViZDoomaze.git  
-cd ViZDoomaze   
-pip install -e .    
+    git clone https://github.com/fanyuzeng/ViZDoomaze.git  
+    cd ViZDoomaze   
+    pip install -e .    
 
 # Example Usage
 ‘’‘
