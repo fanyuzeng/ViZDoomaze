@@ -1,0 +1,7 @@
+README.md
+setup.py
+vizdoomgymmaze.egg-info/PKG-INFO
+vizdoomgymmaze.egg-info/SOURCES.txt
+vizdoomgymmaze.egg-info/dependency_links.txt
+vizdoomgymmaze.egg-info/requires.txt
+vizdoomgymmaze.egg-info/top_level.txt
