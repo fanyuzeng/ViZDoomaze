@@ -8,8 +8,8 @@ The agent’s objective in navigation tasks is to find the red tower, and the ag
 
 # Installation
 git clone https://github.com/fanyuzeng/ViZDoomaze.git
-<br> cd ViZDoomaze <\br>
-<br> pip install -e . <\br>
+cd ViZDoomaze    <br> 
+pip install -e . <\br>
 
 # Example Usage
 Run the following code to test whether you successfully install Vizdoomaze.
