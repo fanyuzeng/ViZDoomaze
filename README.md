@@ -1,9 +1,6 @@
-# ViZDoomaze
-ViZdoomaze includes empty mazes and mazes with obstacles, based on the indoor plans of undecorated departments and build them in ViZDoom, which is a clone of the well-known classic game Doom implemented for research purposes. 
-
 
 # Vizdoomaze
-Vizdoomaze includes empty mazes and mazes with obstacles, based on the indoor plans of undecorated departments and build them in ViZDoom, which is a clone of the well-known classic game Doom implemented for research purposes. These mazes have complicated structures on various scales. In Vizdoomaze, the color of the ceiling and the floor is earth-yellow, while the gray wall resembles brickwork. We set a red tower as a target object, which is randomly positioned in the maze at each training episode. In addition, some green towers representing obstacles randomly are placed in the mazes with obstacles. 
+Vizdoomaze is a series of mazes based on ViZDoom. It includes empty mazes and mazes with obstacles, based on the indoor plans of undecorated departments. These mazes have complicated structures on various scales. In Vizdoomaze, the color of the ceiling and the floor is earth-yellow, while the gray wall resembles brickwork. We set a red tower as a target object, which is randomly positioned in the maze at each training episode. In addition, some green towers representing obstacles randomly are placed in the mazes with obstacles. 
 
 The agent’s objective in navigation tasks is to find the red tower, and the agent has 3 available actions: turn left, turn right and move forward. If the agent reaches the correct target object, it obtains a positive reward (+1.0), whereas if it does not reach the target object, it obtains a negative living reward (-0.0001). In the mazes with obstacles, the agent obtains a negative reward(-0.01) when it hits an obstacle.
 
