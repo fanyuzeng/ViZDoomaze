@@ -22,8 +22,9 @@ env = gym.make('vizdoomazeOne1-v0')
 episodes=10     
 for i in range(episodes)：     
     print("Episodes #" + str(i+1))      
-    observation = env.reset()       
-    for step in range(100): 
+    observation = env.reset()
+    steps = 100
+    for step in range(steps): 
         env.render()      
         action = env.action_space.sample()      
         observation, reward, done, info = env.step(action)      
