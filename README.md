@@ -42,7 +42,10 @@ for i in range(episodes)：
 env.close()
 ```
 
+
+("
 # Experimental Results
 To verify the effectiveness of ViZDoomaze, some experiments are conducted using [A2C](https://arxiv.org/abs/1602.01783) (advantage actor critic), which is a synchronous version of [A3C](https://arxiv.org/abs/1602.01783).
+")
 
 
